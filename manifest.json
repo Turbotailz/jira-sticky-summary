@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Sticky Summary",
+  "version": "1.0",
+  "description": "Adds the issue summary to the sticky header in Jira.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/browse/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

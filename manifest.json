@@ -1,8 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Jira Sticky Summary",
-  "version": "1.0",
-  "description": "Adds the issue summary to the sticky header in Jira.",
+  "version": "0.0.2",
+  "description": "Keep Jira issue summaries visible, always.",
+  "author": "sam@goodger.dev",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": [
     "activeTab"
   ],

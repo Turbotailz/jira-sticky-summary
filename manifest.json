@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Jira Sticky Summary",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Keep Jira issue summaries visible, always.",
   "author": "sam@goodger.dev",
   "icons": {

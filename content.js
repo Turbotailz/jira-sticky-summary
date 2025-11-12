@@ -1,12 +1,15 @@
 const style = document.createElement('style');
 style.textContent = `
+  [data-testid="issue-view-product-templates-default.ui.foundation-content.foundation-content-wrapper"],
   [data-testid="issue-view-layout-templates-default.ui.foundation-content.foundation-content-wrapper"],
   [data-testid="issue-view-sticky-header-container.sticky-header"] + div {
     position: sticky;
     top: 32px;
-    z-index: 98;
+    z-index: 99;
   }
   
+  [data-testid="issue-view-product-templates-default.ui.foundation-content.foundation-content-wrapper"],
+  [data-testid="issue-field-summary.ui.issue-field-summary-inline-edit--container"],
   [data-testid="issue-view-layout-templates-default.ui.foundation-content.foundation-content-wrapper"]
   [data-testid="issue-field-summary.ui.issue-field-summary-inline-edit--container"],
   [data-testid="issue-view-sticky-header-container.sticky-header"] + div
@@ -14,6 +17,7 @@ style.textContent = `
     background: var(--ds-surface, white);
   }
   
+  [data-testid="issue-view-product-templates-default.ui.foundation-content.foundation-content-wrapper"],
   [data-testid="issue.views.issue-details.issue-modal.modal-dialog"] [data-testid="issue-view-layout-templates-default.ui.foundation-content.foundation-content-wrapper"] {
     top: 0;
     background-color: var(--ds-surface-overlay, #FFFFFF);
